@@ -21,6 +21,7 @@ echo 'deb http://get.docker.io/ubuntu docker main' \
 
 apt-get -y update
 apt-get -y upgrade
+apt-get -y install ntp
 apt-get -y install linux-image-extra-$(uname -r)
 apt-get -y install lxc-docker-$version
 
